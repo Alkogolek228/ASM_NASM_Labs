@@ -1,0 +1,6 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                    org $8000
+  8000 86 0A        LDAA #10 ; loading a as 10
+  8002 C6 04        LDAB #04 ; loading b as 4
+  8004 16           TAB ; transfer a to b
